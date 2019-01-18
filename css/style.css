@@ -1,0 +1,239 @@
+@charset:"utf-8";
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+body{
+    font-family:"NotoSans",sans-serif;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/*전체시작*/
+#wrap{
+    width:100%;
+}
+/*헤더시작*/
+#header{
+  
+ 
+    
+}
+#header h1{
+    font-size:0;
+    width:120px;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+#header h1 img{
+    width:100%;
+    height:
+}
+.headerTop{
+    background-size:100%;
+    margin:0 auto;
+    position: relative;
+}
+.headerTop h1{
+    height:100%;
+    width:150px;
+    
+}
+
+.headerTop a{ 
+}
+
+.pannel03{
+    position:absolute;
+    right:1%;
+    top:8%;
+    margin-top:-4px;
+}
+.pannel03 a span{
+    width: 25px;
+    height: 2px;
+    background: #555;
+    display: block;
+    text-indent: -9999px;
+    margin: 5px 0;
+}
+.pannel03 a:before,.pannel03 a:after{
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #555;
+    display: block;
+}
+
+.mainSlider01{
+    width:100%;
+    height:230px;
+    overflow: hidden;
+    position:relative;
+}
+.mainSlider01 img{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.mainSlider02{
+    width:100%;
+   
+}
+.mainSlider02 h3{
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    font-weight:300;
+    background:#636363;
+    color:#fff;
+    margin: 0 auto;
+    margin-bottom:20px;
+    text-align: center;
+    
+}
+.mainSlider02 img{
+    width: 100%;
+    display: block;
+     
+}
+
+
+
+/*mainrow2*/
+.mainRow1{
+    text-align: center;
+    
+}
+/*bestitem*/
+.greencolor{
+    color:#3d9622;
+    font-size:10px;
+    text-align: center;
+    
+}
+.goospot{
+    font-weight:700;
+    font-size:12px;
+    text-align: center;
+}
+.price{
+    font-weight: normal;
+    font-size:12px;
+    text-align: center;
+    
+}
+
+.mainRow1 h3{
+    width:100px;
+    height:35px;
+    line-height: 35px;
+   background:#636363;
+    color:#fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-weight:300;
+}
+.cica{
+    color:#585858;
+    font-size:10px;
+    text-align: center;
+    margin-top:10px;
+}
+
+
+.bestitem{
+    height: 320px;
+    text-align: center;
+    position:relative;
+}
+.bestitem img{
+    height:150px;
+}
+.text1{
+    position: relative;
+}
+.pannel{
+  
+   
+}
+.pannel01{
+    background:url(../images/sidmool_lefticon.png)no-repeat;
+     width:29px;
+     height:29px;
+     background-size:cover;
+     display:inline-block;
+     position: absolute;
+     left: 20%;
+     bottom: 150px;
+  
+    
+     
+    
+    
+}
+
+.pannel02{
+  background:url(../images/sidmool_righticon.png)no-repeat;
+    width:29px;
+    height:29px;
+    background-size:cover;
+    display:inline-block;
+    position: absolute;
+    bottom: 150px;
+    right: 20%;
+}
+
+.gnb{
+    width:100%;
+    box-sizing: border-box;
+    font-size:18px; 
+    background-color:#7cca21;
+    padding:20px 10px;
+    text-align: justify;  
+}
+.gnb li{
+    text-align: center;
+    width:20%;
+    font-size:12px;
+    float:left;
+    
+}
+.gnb cf{
+    
+}
+
+
+/*푸터시작*/
+#footer{
+    background-color:#f4f4f4;
+    text-align:center;
+    font-size:9px;
+    position: relative;
+    padding-top:20px;
+    
+    
+
+}
+.footerInfo{
+    font-weight:normal;
+    margin-bottom:5px;
+}
+.footerBottom{
+    top:-30px;
+    font-weight:bold;
+    padding-bottom:20px;
+}
+
